@@ -180,6 +180,7 @@
 				09538D81252F6146005B7D99 /* Sources */,
 				09538D82252F6146005B7D99 /* Frameworks */,
 				09538D83252F6146005B7D99 /* Resources */,
+				3BD8CE41FC99B10EB659E4A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +218,7 @@
 				09538DA2252F6148005B7D99 /* Sources */,
 				09538DA3252F6148005B7D99 /* Frameworks */,
 				09538DA4252F6148005B7D99 /* Resources */,
+				75A2A4AB435C8CA6CF56C143 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +300,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3BD8CE41FC99B10EB659E4A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterSearch/Pods-TwitterSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterSearch/Pods-TwitterSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwitterSearch/Pods-TwitterSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A2A4AB435C8CA6CF56C143 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterSearch-TwitterSearchUITests/Pods-TwitterSearch-TwitterSearchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterSearch-TwitterSearchUITests/Pods-TwitterSearch-TwitterSearchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwitterSearch-TwitterSearchUITests/Pods-TwitterSearch-TwitterSearchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7A3D9C23E1D771D792209D03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

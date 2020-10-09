@@ -6,6 +6,14 @@ target 'TwitterSearch' do
   use_frameworks!
 
   # Pods for TwitterSearch
+  # Reactive
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxOptional'
+
+  # API
+  pod 'Alamofire'
+  pod 'SwiftyBeaver'
 
   target 'TwitterSearchTests' do
     inherit! :search_paths

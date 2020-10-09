@@ -1,3 +1,40 @@
-PODFILE CHECKSUM: 84ed954e90ac2fdfbc1096662ba3ff25ef6f903d
+PODS:
+  - Alamofire (5.2.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxOptional (4.1.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftyBeaver (1.9.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - RxCocoa
+  - RxOptional
+  - RxSwift
+  - SwiftyBeaver
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - RxCocoa
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyBeaver: a1f5691458561414bcfab51874b2b7445451602b
+
+PODFILE CHECKSUM: 93ff0d68c6cd0f0abee4c2f788f1b34608f11244
 
 COCOAPODS: 1.9.0
